@@ -1,0 +1,72 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(37, 9, 44);
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(241, 227, 210);
+    text-decoration: none;
+}
+
+figcaption{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding-top: 5px;
+}
+
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 40px;
+    border-bottom: solid 1px #555555;
+    text-align: right;
+    background-color: rgb(70, 12, 57);
+    color: white;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.mainbody{
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    padding-right: 5px;
+}
+
+
+.footer{
+    bottom: 1px;
+    height: 20px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(7, 75, 68);
+    color: white;
+}
+
+.rightpadding {
+    padding-right: 10px;
+}
+
+.toppadding {
+    padding-top: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
