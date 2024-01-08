@@ -61,8 +61,9 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
             <h1>Shiny Projects</h1>
-            <span class="subheading"><a href="#usdeaths">U.S. Death Trends</a>
-              <!--a href="#contact">Contact Me</a-->
+            <span class="subheading">
+              <a href="#usdeaths">US Death Trends</a>
+              <a href="#church_stats">Church Statistics</a>
             </span>
           </div>
         </div>
@@ -72,22 +73,33 @@
 
   <div class="mainbody">
 
-    <h4 class="title" id="usdeaths">U.S. Death Trends</h4>
-    <p style="margin: 20px 60px 30px"> This app is built on CDC data that I discovered while
-      searching for alternative data for a regression class at BYU. It is my first attempt at
-      building a shiny application and is primarily an interface for subsetting data and selecting
-      metrics of interest. The user's selected graph is then displayed using the ggplot2 package.
+    <h4 class="title" id="church_stats">Church Statistics</h4>
+    <p style="margin: 20px 60px 30px"> This app was made as an experiment in speed and styling.
+      I got access to a spreadsheet with growth statistics for the Church of Jesus Christ of Latter-Day
+      Saints from 1990 to 2022 and wanted a quick way to visualize different metrics to satisfy my own
+      curiosity. I also figured I could practice some shiny styling along the way. You'll notice that
+      the styling is much more sleek and unified compared to previous apps thanks to the <code>bslib</code>
+      library in R.
     </p>
 
-    <iframe height="500px" width="85%" src="https://joshua-christensen.shinyapps.io/deaths-app/"
+    <iframe height="500px" width="85%" src="https://joshua-christensen.shinyapps.io/church_stats/"
       class="center">
     </iframe>
 
     <br><br>
 
-    <!-- <iframe height="500px" width="85%" src="https://joshua-christensen.shinyapps.io/deaths/"
+    <h4 class="title" id="usdeaths">US Death Trends</h4>
+    <p style="margin: 20px 60px 30px"> This app is built on CDC data that I discovered while
+      searching for alternative data for a regression class at BYU. It was my first attempt at
+      building a shiny application and is primarily an interface for subsetting data and selecting
+      metrics of interest. The primary benefit of the app is the ease of comparison across states or
+      between individual states and the entire US for general death rates and cause-specific death
+      rates.
+    </p>
+
+    <iframe height="500px" width="85%" src="https://joshua-christensen.shinyapps.io/deaths-app/"
       class="center">
-    </iframe> -->
+    </iframe>
 
     <br><br>
   </div>
